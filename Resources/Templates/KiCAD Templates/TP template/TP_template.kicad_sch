@@ -1,0 +1,24 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (title_block
+    (title "Example project")
+    (date "15 nov 2012")
+    (rev "rev0x")
+    (company "my own :)")
+    (comment 1 "none")
+    (comment 2 "tomek.elektronika30@gmail.com")
+    (comment 3 "Tomasz Piskor")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
