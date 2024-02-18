@@ -18,6 +18,147 @@
   )
 
 
+  (text "ESC Driver rev01_01" (at 78.74 27.94 0)
+    (effects (font (size 10 10) (thickness 2) bold) (justify left bottom))
+    (uuid 73b6b8af-7734-4b60-83cc-31230a67615b)
+  )
+
+  (sheet (at 109.22 68.58) (size 26.67 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0ad2be9d-f4df-4de7-b0f9-2bdd9c58dcdc)
+    (property "Sheetname" "MOSFETs" (at 109.22 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MOSFETs.kicad_sch" (at 109.22 94.5646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ESC_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 71.12 41.91) (size 27.94 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1715d916-069b-4594-af25-bbbfd446a379)
+    (property "Sheetname" "BLOCK_DIAGRAM" (at 71.12 41.1984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "BLOCK_DIAGRAM.kicad_sch" (at 71.12 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ESC_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 33.02 41.91) (size 27.94 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1a5f7816-61c1-4c76-9f91-fcd7e837e373)
+    (property "Sheetname" "OVERVIEW" (at 33.02 41.1984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "OVERVIEW.kicad_sch" (at 33.02 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ESC_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 33.02 68.58) (size 24.13 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 304a4842-e86c-4897-b135-f2262cdd1717)
+    (property "Sheetname" "MCU" (at 33.02 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU_sch.kicad_sch" (at 33.02 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ESC_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 33.02 100.33) (size 24.13 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 344fe98c-a0b7-41a7-875d-9d9ee4fbfc21)
+    (property "Sheetname" "MECHANICAL" (at 33.02 99.6184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MECHANICAL.kicad_sch" (at 33.02 126.3146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ESC_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 143.51 68.58) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bf2c0113-6f62-4769-86df-5020f77125b1)
+    (property "Sheetname" "CAN" (at 143.51 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CAN.kicad_sch" (at 143.51 94.5646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ESC_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 179.07 68.58) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ddfd0e63-31e3-4c66-92a4-0b6b646aef10)
+    (property "Sheetname" "FILTERS" (at 179.07 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "FILTERS.kicad_sch" (at 179.07 94.5646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ESC_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 71.12 68.58) (size 24.13 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dfb90b65-2e61-4a73-b1df-f52a43946207)
+    (property "Sheetname" "MOSFET DRIVER" (at 71.12 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MOSFET_DRIVER.kicad_sch" (at 71.12 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ESC_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
